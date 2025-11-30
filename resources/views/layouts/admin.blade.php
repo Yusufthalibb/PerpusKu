@@ -224,17 +224,6 @@
 
             <!-- Stats & Logout -->
             <div class="p-5 lg:p-4 border-t border-gray-100 space-y-3">
-                <!-- Quick Stats -->
-                <div class="grid grid-cols-2 gap-3 lg:gap-2 mb-3">
-                    <div class="bg-gradient-to-br from-red-50 to-red-100 rounded-lg p-4 lg:p-3">
-                        <p class="text-sm lg:text-xs text-gray-600 mb-1">Total Buku</p>
-                        <p class="text-2xl lg:text-lg font-bold text-[#7B1F1F]">248</p>
-                    </div>
-                    <div class="bg-gradient-to-br from-amber-50 to-orange-50 rounded-lg p-4 lg:p-3">
-                        <p class="text-sm lg:text-xs text-gray-600 mb-1">Total User</p>
-                        <p class="text-2xl lg:text-lg font-bold text-amber-700">156</p>
-                    </div>
-                </div>
 
                 <!-- Logout Button -->
                 <form method="POST" action="{{ route('logout') }}">
